@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Dosis:wght@300&family=Quicksand:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+    padding: 0;
+}
+.header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(143, 175, 224);
+    min-width: 100vh;
+    min-height: 5vh;
+    z-index: 1;
+}
+.headerlogo{
+    display: flex;
+    background-color: rgba(11, 36, 27, 0);
+    align-items: center;
+}
+.inputs input[type="text"]{
+    color: aliceblue;
+    text-align: left;
+    position: relative;
+    left: 55px;
+    padding-right: 400px;
+    height: 30px;
+    background-color: rgba(32, 32, 32, 0);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    outline: 0px;
+    border-color: aliceblue;
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+}
+.headerlogo h1{
+    position: relative;
+    font-weight: 100;
+    color: rgba(250, 244, 235, 0.815);
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.headerlogo ul{
+    position: relative;
+    left: 80px;
+}
+.headerlogo ul li{
+    position: relative;
+    list-style: none;
+    display:inline-block;
+    padding: 20px;
+}
+.headerlogo ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);  
+}
+.headerlogo ul li:hover{
+    background: #fb860036;
+    color: black;
+    transition: 0.5s;
+}
+.firstpage{
+    background-image: linear-gradient(rgba(126, 199, 248, 0.315), rgba(243, 185, 99, 0.411)),url(assets/pagebackground/burgess-milner-OYYE4g-I5ZQ-unsplash.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.scroll-section::-webkit-scrollbar {
+    display: none;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.createAcc{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    border-radius: 5px;
+    min-height: 50vh;
+    min-width: 70vh;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url(assets/pagebackground/burgess-milner-OYYE4g-I5ZQ-unsplash.jpg);
+}
